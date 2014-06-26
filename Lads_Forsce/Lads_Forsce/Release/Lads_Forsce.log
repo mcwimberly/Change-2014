@@ -1,0 +1,31 @@
+﻿Build started 6/26/2014 2:23:50 PM.
+     1>Project "D:\work\projects\landscape modeling\code\Lads_Frsce 06_05_2014\Lads_Forsce\Lads_Forsce\Lads_Forsce.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Change.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Change.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Change.lib" /MACHINE:X86 /SAFESEH Release\biomass.obj
+         Release\celllist.obj
+         Release\errorCheck.obj
+         Release\fires.obj
+         Release\harvest.obj
+         Release\lads.obj
+         Release\ladsio.obj
+         Release\lcc.obj
+         Release\lccres.obj
+         Release\probSurface.obj
+         Release\randnum.obj
+         Release\demand.obj
+         Release\stdafx.obj
+         Release\vegetation.obj
+         Release\hni.obj
+         Generating code
+     1>d:\work\projects\landscape modeling\code\lads_frsce 06_05_2014\code\lcc.cpp(343): warning C4715: 'cellTrasition' : not all control paths return a value
+     1>d:\work\projects\landscape modeling\code\lads_frsce 06_05_2014\code\lcc.cpp(157): warning C4715: 'getNeighbourLag' : not all control paths return a value
+     1>d:\work\projects\landscape modeling\code\lads_frsce 06_05_2014\code\hni.cpp(165): warning C4715: 'getHnilag' : not all control paths return a value
+     1>d:\work\projects\landscape modeling\code\lads_frsce 06_05_2014\code\lccres.cpp(67): warning C4715: 'getOwnershipStatus' : not all control paths return a value
+         Finished generating code
+         Lads_Forsce.vcxproj -> D:\work\projects\landscape modeling\code\Lads_Frsce 06_05_2014\Lads_Forsce\Lads_Forsce\.\Debug\Change.exe
+     1>Done Building Project "D:\work\projects\landscape modeling\code\Lads_Frsce 06_05_2014\Lads_Forsce\Lads_Forsce\Lads_Forsce.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.49
